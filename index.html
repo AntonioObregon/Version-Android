@@ -10,7 +10,7 @@ function onBodyLoad() { document.addEventListener("deviceready", onDeviceReady,f
 
 function onDeviceReady() {
 var element = document.getElementById('appInfo');
-element.innerHTML = 'PhoneGap (versión ' +device.phonegap + ')<br />' + device.platform + ' ' +device.name + ' (versión ' + device.version + ').';
+element.innerHTML = 'PhoneGap (versión ' +device.cordova + ')<br />' + device.platform + ' ' +device.model + ' (versión ' + device.version + ').';
 }
 </script>
 </head>
